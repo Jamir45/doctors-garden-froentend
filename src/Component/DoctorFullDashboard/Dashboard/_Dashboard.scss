@@ -1,0 +1,52 @@
+
+.DashboardPage {
+   margin-top: 60px;
+   width: 100%;
+   @include rowCommonStyle;
+   .d-none.d-md-block.col-md-2.col-lg-2 {
+      padding: 0;
+   }
+   .DashboardDetails{
+      padding-top: 20px;
+      h5{
+         font-size: 25px;
+         margin-bottom: 15px;
+      }
+      .dashboardOverView{
+         @include rowCommonStyle;
+         .col-md-3{
+            padding: 0px 5px !important;
+            .overVieStatus{
+               padding: 8px;
+               border-radius: 5px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               h1{
+                  margin-bottom: 0;
+                  padding-right: 20px;
+               }
+            }
+         }
+      }
+   }  
+   .editBtn{
+      color: white;
+      padding: 0.28rem;
+   } 
+}
+@media screen and (max-width: 600px) {
+   .overVieStatus{
+      h1{
+         font-size: 30px;
+         margin-bottom: 0;
+         padding-right: 20px;
+      }
+   }
+}
+
+.presCriptionModal{
+   form div {
+      padding: 5px 0px;
+   }
+}

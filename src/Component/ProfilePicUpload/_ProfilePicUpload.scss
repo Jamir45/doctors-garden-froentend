@@ -1,0 +1,22 @@
+.uploadImgPage {
+   min-height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   .uploadImgSection {
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      img {
+         border: 1px solid;
+         margin-bottom: 10px;
+      }
+   }
+}
+.imageCropDialog{
+   padding: 0;
+   position: relative;
+   .formLoader{
+      @include formLoaderStyle;
+   }
+}

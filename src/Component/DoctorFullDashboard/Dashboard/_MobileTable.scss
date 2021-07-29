@@ -1,0 +1,18 @@
+.MobileTable{
+   padding: 10px 0px;
+   .DataContent{
+      padding: 5px 0px;
+      display: flex;
+      justify-content: space-between;
+      button{
+         padding: 5px 10px;
+      }
+      button.btn.btn-warning.editBtn {
+         background-color: orange;
+         padding: 0.28rem;
+      }
+   }
+   .DataContent:first-child{
+      padding-right: 10px;
+   }
+}

@@ -1,0 +1,17 @@
+.RegistrationPage{
+   padding: 30px 0px;
+   .RegistrationFormDiv{
+      margin-top: 20px;
+      margin-bottom: 30px;
+      position: relative;
+      .formLoader{
+         @include formLoaderStyle;
+      }
+      .RegistrationPaper{
+         @include loginAndRegistrationPaper;
+      }
+   }
+}
+li.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.py-3.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button {
+   line-height: 0.4;
+}

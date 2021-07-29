@@ -1,0 +1,43 @@
+.sidebar{
+    background-image: linear-gradient(40deg, #19d3ae,#0fcfec);
+    position: fixed;
+    width: 16%;
+    svg{margin-right: 5px;}
+    li{
+        margin-bottom: 2em;
+        a{text-decoration: none;}
+        span{
+            margin-left: 5px;
+            transition: all 0.3s;
+        }
+    }
+    li:hover span{
+        display: inline-block;
+        transform: translate(5px);
+    }
+}
+.mobileSidebarDiv{
+    width: 100%;
+    margin-bottom: 100px;
+    .sidebarMobile{
+        @include rowCommonStyle;
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+        a{
+            text-align: center;
+            color: white;
+            border: 0.01rem solid white;
+            border-radius: 5px;
+            padding: 10px;
+            text-decoration: none;
+            background-image: linear-gradient(40deg, #19d3ae,#0fcfec);
+        }
+        
+    }
+}
+@media screen and (max-width: 992px) {
+    .sidebar{
+        padding: 5px;
+    }
+}

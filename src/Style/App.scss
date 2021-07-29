@@ -1,0 +1,39 @@
+// import mixin and variable
+@import './mixin';
+@import './variable';
+
+// Import Header style
+@import '../Component/Header/Header';
+
+// Import banner style
+@import '../Component/Banner/Banner';
+
+// import doctor full dashboard style
+@import '../Component/DoctorFullDashboard/Dashboard/Dashboard';
+@import '../Component/DoctorFullDashboard/Dashboard/MobileTable';
+@import '../Component/DoctorFullDashboard/Patient/Patient';
+@import '../Component/DoctorFullDashboard/Sidebar/Sidebar';
+
+// Import appointment page style
+@import '../Component/GetAppointmentSection/Appointment';
+
+// Import login and registration page style
+@import '../Component/Login/CommonForm/CommonForm';
+
+// Import profile page style
+@import '../Component/Profile/Profile';
+
+// Import profile pic upload style
+@import '../Component/ProfilePicUpload/ProfilePicUpload';
+
+// Import login page style
+@import '../Component/Login/Login';
+
+// Import registration page style
+@import '../Component/Registration/Registration';
+
+// Import contact page style
+@import '../Component/Contact/Contact';
+
+// Import complete registration page style
+@import '../Component/CompleteRegistration/CompleteRegistration';

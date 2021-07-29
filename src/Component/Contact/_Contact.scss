@@ -1,0 +1,22 @@
+.contact{
+    background-image: url(../../images/ap-banner-bg.png);
+    position: relative;
+    z-index: 1;
+    .form-group{
+        padding: 5px 0px;
+    }
+    button{
+        @include btnCommonStyle;
+        padding: 10px 30px
+    }
+}
+.contact::before{
+    position: absolute;
+    content: "";
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 11, 27);
+    opacity: .9;
+    z-index: -1;
+}

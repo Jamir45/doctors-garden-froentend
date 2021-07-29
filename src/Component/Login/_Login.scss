@@ -1,0 +1,14 @@
+.loginPage{
+   padding-top: 30px;
+   .loginFormDiv{
+      margin-top: 20px;
+      margin-bottom: 40px;
+      position: relative;
+      .formLoader{
+         @include formLoaderStyle;
+      }
+      .loginPaper{
+         @include loginAndRegistrationPaper;
+      }
+   }
+}
